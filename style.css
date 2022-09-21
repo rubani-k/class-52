@@ -1,0 +1,50 @@
+h1{
+    color: white;
+ margin: 30px;
+}
+
+.header {
+    color: #3300ff;
+   background-color: rgb(240, 32, 32);
+   display: flex;
+   justify-content: space-between;
+   
+}
+.header * {
+    border: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.menu a {
+    margin-right: 30px;
+}
+
+
+h2 {
+    text-align: center;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a:visited {
+    color: white
+}
+
+.item:hover img {
+  opacity: 0.2;
+}
+
+.item:hover p {
+    opacity: 1;
+}
